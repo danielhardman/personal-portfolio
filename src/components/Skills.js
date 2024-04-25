@@ -1,15 +1,11 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png";
 import { BsArrowLeftShort } from "react-icons/bs";
 import { BsArrowRightShort } from "react-icons/bs";
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -26,36 +22,10 @@ export const Skills = () => {
       items: 1
     }
   };
-  const CustomLeftArrow = ({ onClick}) => (
-    <i onClick={() => onClick()} className="custom-left-arrow" />
-  );
-  const CustomRightArrow = ({ onClick }) => {
-    return <i className="custom-right-arrow" onClick={() => onClick()} />;
-  };
-  
-  const CustomButtonGroup = ({ next, previous, goToSlide, carouselState }) => {
-    const { totalItems, currentSlide } = carouselState;
-    return (
-      <div className="custom-button-group">
-        <div>Current slide is {currentSlide}</div>
-        <button onClick={() => previous()}>Previous slide</button>
-        <button onClick={() => next()}>Next slide</button>
-        <button
-          onClick={() => goToSlide(Math.floor(Math.random() * totalItems + 1))}
-        >
-          Go to a random slide
-        </button>
-      </div>
-    );
-  };
+
   const CustomButtonGroupAsArrows = ({ next, previous }) => {
     return (
-      <div
-        style={{
-          //textAlign: "center",
-          
-        }}
-      >
+      <div>
         <button className="customLeft" onClick={previous}><BsArrowLeftShort/></button>
         <button className="customRight" onClick={next}><BsArrowRightShort/></button>
       </div>

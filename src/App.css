@@ -338,8 +338,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-slider .item{
   width: 50%;
   margin: 0 auto 15px auto;
-  border: #56423D;
-  border-style: solid;
 }
 .skill-slider .item h4 {
   color: #CFA195;
