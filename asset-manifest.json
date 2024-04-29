@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.449da425.css",
+    "main.js": "/personal-portfolio/static/js/main.c413ef55.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/placeholder-img1.png": "/personal-portfolio/static/media/placeholder-img1.c3609622556bcb1686f7.png",
+    "static/media/placeholder-img2.png": "/personal-portfolio/static/media/placeholder-img2.3f2d38b3e12eb4906a17.png",
+    "static/media/LeagueSpartan-Bold.ttf": "/personal-portfolio/static/media/LeagueSpartan-Bold.c311dbd01e80ebe50942.ttf",
+    "static/media/LeagueSpartan-Medium.ttf": "/personal-portfolio/static/media/LeagueSpartan-Medium.a8c3b9360d69edbcf13e.ttf",
+    "static/media/LeagueSpartan-Regular.ttf": "/personal-portfolio/static/media/LeagueSpartan-Regular.09958bb07a94a6a4f1bb.ttf",
+    "static/media/project-img1.png": "/personal-portfolio/static/media/project-img1.8958aaa634977aba90d3.png",
+    "static/media/header-img.svg": "/personal-portfolio/static/media/header-img.ac2461a1bc319882b82c628a04c4f4df.svg",
+    "static/media/contact-img.svg": "/personal-portfolio/static/media/contact-img.54925bb7a10930b467ec15e88504c9d6.svg",
+    "static/media/revicons.eot": "/personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/nav-icon2.svg": "/personal-portfolio/static/media/nav-icon2.a02153645c4bd1934bba6c7dabb5c893.svg",
+    "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.685b09417b821d04e1fb9e7c3c90cff6.svg",
+    "static/media/nav-icon3.svg": "/personal-portfolio/static/media/nav-icon3.c55026daf1016ddd4bbb35da1e3986ca.svg",
+    "main.449da425.css.map": "/personal-portfolio/static/css/main.449da425.css.map",
+    "main.c413ef55.js.map": "/personal-portfolio/static/js/main.c413ef55.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.449da425.css",
+    "static/js/main.c413ef55.js"
+  ]
+}
