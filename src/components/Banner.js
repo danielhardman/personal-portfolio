@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio!</span>
                 <h1>{`I'm Daniel and I'm a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Programmer.", "FAU Graduate.", "Problem Solver." ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I graduated with a Bachelor of Science degree in Computer Science on May 2023. I have a strong passion for computers and technology, and I love the challenge of solving problems. Being open-minded and considerate, these are parts of myself that I pride myself on. These values contribute greatly towards my ability to work well with others and my ability to problem solve.</p>
+                  <p>I graduated with a Bachelor of Science degree in Computer Science on May 2023. I have a strong passion for computers and technology, and I love the challenge of solving problems. Being open-minded and considerate, these values contribute greatly towards my ability to work well with others and my ability to problem solve.</p>
               </div>}
             </TrackVisibility>
           </Col>
